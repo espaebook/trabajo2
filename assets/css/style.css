@@ -45,6 +45,18 @@ h1 {
   transition: all 0.4s;
 }
 
+.back-to-top2 {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  z-index: 996;
+  background: #009cea;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -55,6 +67,7 @@ h1 {
   background: #14b1ff;
   color: #fff;
 }
+
 
 .back-to-top.active {
   visibility: visible;
@@ -360,6 +373,11 @@ h1 {
   margin-bottom: 30px;
   font-size: 24px;
 }
+#hero2 h5 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
 
 #hero2 .php-email-form h2 {
   color: #ffffff;
@@ -475,6 +493,12 @@ h1 {
 
 }
 
+#hero2 p{
+  color: #576971;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
 @media (min-width: 1024px) {
   #hero2 {
     background-attachment: fixed;
@@ -520,7 +544,7 @@ h1 {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(12, 13, 14, 0.473);
+  /* background-color: rgba(12, 13, 14, 0.473); */
 }
 
 #hero .carousel-container {
@@ -590,7 +614,7 @@ h1 {
 }
 
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #486992;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1916,4 +1940,23 @@ section {
 h1.t.text-center{
   background: linear-gradient(to bottom, #0087c6 0%, #486992 100%);
   color: white !important;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  border-radius: 100%;
+  width: 54px;
+  height: 54px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #5697d0;
+  background-size: 30px;
+}
+
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
+  /* background: rgba(255, 255, 255, 0.3); */
+  background-color: #486992;
+
+  /* color: rgba(255, 255, 255, 0.8); */
 }
